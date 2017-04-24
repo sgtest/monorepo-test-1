@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	for i := 1; i <= 8; i++ {
+	for i := 1; i <= 15; i++ {
 		srcPkg := "k8s.io/kubernetes"
 		srcPkgB := []byte(srcPkg)
 		dstPkg := "github.com/sourcegraph/monorepo-test-1/kubernetes-" + strconv.Itoa(i)

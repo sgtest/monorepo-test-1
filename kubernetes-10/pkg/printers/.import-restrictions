@@ -1,0 +1,10 @@
+{
+  "Rules": [
+    {
+      "SelectorRegexp": "k8s[.]io/kubernetes/pkg/(api$|apis/)",
+      "ForbiddenPrefixes": [
+        "github.com/sourcegraph/monorepo-test-1/kubernetes-10/pkg/printers"
+      ]
+    }
+  ]
+}
