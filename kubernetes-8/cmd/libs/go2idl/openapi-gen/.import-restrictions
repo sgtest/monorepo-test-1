@@ -1,0 +1,15 @@
+{
+  "Rules": [
+    {
+      "SelectorRegexp": "k8s[.]io",
+      "AllowedPrefixes": [
+        "github.com/sourcegraph/monorepo-test-1/kubernetes-8/cmd/libs/go2idl",
+        "k8s.io/apimachinery/pkg/openapi",
+        "k8s.io/gengo",
+        "github.com/sourcegraph/monorepo-test-1/kubernetes-8/third_party",
+        "k8s.io/apimachinery/third_party",
+        "k8s.io/apimachinery/pkg/util/sets"
+      ]
+    }
+  ]
+}

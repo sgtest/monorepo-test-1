@@ -1,0 +1,19 @@
+{
+	"GoPrefix": "github.com/sourcegraph/monorepo-test-1/kubernetes-4",
+	"SrcDirs": [
+		"./pkg",
+		"./cmd",
+		"./third_party",
+		"./plugin",
+		"./test",
+		"./federation",
+		"./examples"
+	],
+	"SkippedPaths": [
+		"^_.*",
+		"^staging.*",
+		"_vendor"
+	],
+	"AddSourcesRules": true,
+	"VendorMultipleBuildFiles": true
+}

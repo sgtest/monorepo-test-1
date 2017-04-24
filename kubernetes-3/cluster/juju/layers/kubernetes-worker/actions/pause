@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -ex
+
+export PATH=$PATH:/snap/bin
+
+kubectl --kubeconfig=/root/cdk/kubeconfig cordon $(hostname)
+kubectl --kubeconfig=/root/cdk/kubeconfig drain $(hostname) --force
+status-set 'waiting' 'Kubernetes unit paused'
